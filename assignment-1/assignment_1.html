@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">NextDev</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portofolio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Tutorial
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">HTML</a></li>
+                            <li><a class="dropdown-item" href="#">CSS</a></li>
+                            <li><a class="dropdown-item" href="#">Javascript</a></li>
+                            <li><a class="dropdown-item" href="#">JQuery</a></li>
+                            <li><a class="dropdown-item" href="#">Codeigniter</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>    
+            <div class="d-flex">
+                <button class="btn btn-light me-2" type="button">Login</button>
+                <button class="btn btn-primary me-5" type="button">Button</button>
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 ms-5 pe-0">
+                <img src="foto.jpg" alt="Muhammad Alfian" width="150" height="200">
+            </div>
+            <div class="col-2 ps-0">
+                <h3>Muhammad Alfian</h3>
+                <p>Front End Designer</p>
+                <button class="btn btn-primary me-2" type="button">Kontak</button>
+                <button class="btn btn-outline-success me-5" type="button">Resume</button>
+            </div>
+            <div class="col-1">
+                <ul class="list-group">
+                    <li class="list-group-item fw-bold">Availability</li>
+                    <li class="list-group-item fw-bold">Usia</li>
+                    <li class="list-group-item fw-bold">Lokasi</li>
+                    <li class="list-group-item fw-bold">Pengalaman</li>
+                    <li class="list-group-item fw-bold">Email</li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <ul class="list-group">
+                    <li class="list-group-item">Full Time</li>
+                    <li class="list-group-item">30</li>
+                    <li class="list-group-item">Bekasi</li>
+                    <li class="list-group-item">2 Tahun</li>
+                    <li class="list-group-item">muhammadalfian3591@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <form>
+        <div class="row mb-3 ms-5">
+            <label for="nama" class="col-sm-1 col-form-label fw-bold">Nama</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" id="nama" placeholder="Masukkan nama lengkap, cth: Muhammad Alfian">
+            </div>
+        </div>
+        <div class="row mb-3 ms-5">
+            <label for="role" class="col-sm-1 col-form-label fw-bold">Role</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" id="role" placeholder="Masukkan role pekerjaan, cth: Front End">
+            </div>
+        </div>
+        <div class="row mb-3 ms-5">
+            <label for="availability" class="col-sm-1 col-form-label fw-bold">Availability</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" id="availability" placeholder="Masukkan tipe availability, cth: Full Time">
+            </div>
+        </div>
+        <div class="row mb-3 ms-5">
+            <label for="age" class="col-sm-1 col-form-label fw-bold">Age</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" id="age" placeholder="Masukkan usia dalam tahun, cth: 25">
+            </div>
+        </div>
+        <div class="row mb-3 ms-5">
+            <label for="lokasi" class="col-sm-1 col-form-label fw-bold">Lokasi</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" id="lokasi" placeholder="Masukkan nama kota/kabupaten, cth: Bekasi">
+            </div>
+        </div>
+        <div class="row mb-3 ms-5">
+            <label for="yearsExperience" class="col-sm-1 col-form-label fw-bold">Years Experience</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" id="yearsExperience" placeholder="Masukkan pengalaman dalam tahun, cth: 5 tahun">
+            </div>
+        </div>
+        <div class="row mb-3 ms-5">
+            <label for="email" class="col-sm-1 col-form-label fw-bold">Email</label>
+            <div class="col-sm-3">
+              <input type="email" class="form-control" id="email" placeholder="Masukkan email yang valid, cth: alfian.elektro@gmail.com">
+            </div>
+        </div>
+        <div class="row mb-3 ms-5">
+            <div>
+                <button class="col-sm-1 btn btn-primary" type="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+
+    </script>
+</body>
+</html>
